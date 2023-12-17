@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: antiquewhite;
+    padding: 2rem;
+    text-align: center;
+    width: 300px;
+}
+
+.container .time {
+    margin: 1rem 0;
+}
+
+.container .time>span {
+    font-size: 50px;
+}
+
+.container .btns {
+    margin-top: 2rem;
+}
+
+.container .btns>button {
+    padding: 0.50rem 1.25rem;
+    margin-left: 20px;
+}
+
+.container .btns #playBtn {
+    background-color: green;
+    border: none;
+    color: aliceblue;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.container .btns #resetBtn {
+    background-color: red;
+    border: none;
+    color: aliceblue;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.container .btns #stopBtn {
+    background-color: orange;
+    border: none;
+    color: aliceblue;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
