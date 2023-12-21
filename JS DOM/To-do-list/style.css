@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #9756f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.container {
+    background-color: #fff;
+    padding: 25px;
+    min-width: 250px;
+    border-radius: 5px;
+}
+
+.addTask {
+    padding: 10px 0;
+    display: flex;
+    gap: 25px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.addTask input {
+    padding: 10px 25px 10px 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    flex: 1;
+}
+
+.addTask button {
+    background-color: #9756f1;
+    padding: 5px 15px;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.addTask button:active {
+    opacity: 0.8;
+}
+
+.task {
+    min-width: 250px;
+    background-color: #d7cce8;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+
+    padding: 4px 10px 4px 5px;
+}
+
+.task li {
+    flex: 1;
+    font-size: 14px;
+}
+
+.task i {
+    color: #fff;
+}
+
+.task button {
+    background-color: #9756f1;
+    padding: 10px 12px;
+    outline: none;
+    border: none;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+
+.task button:active {
+    opacity: 0.8;
+}
+
+
+
+.task:last-child {
+    margin-bottom: 0;
+}
